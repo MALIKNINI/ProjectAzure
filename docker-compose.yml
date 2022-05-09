@@ -1,0 +1,7 @@
+version: "3.3"
+services:
+  projectazure:
+    build: .
+    image: reactapp
+    ports:
+      - "80:3000"
